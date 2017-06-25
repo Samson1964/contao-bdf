@@ -1,0 +1,62 @@
+#main .ce_bdfboxen
+{
+	position: relative;
+	overflow: visible;
+	height: 100px;
+}
+
+#main .ce_bdfboxen p
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 13px;
+}
+
+#main .ce_bdfboxen img
+{
+	/*vertical-align: top;*/
+}
+
+#main .boxall
+{
+	background-color: #FFB266;
+	border: 1px solid #A00000;
+	/*text-align: center;
+	vertical-align: middle;*/
+	height: auto;
+	width: auto;
+	padding: 0px;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#main .box1
+{
+	top: 0;
+	left: 0;
+}
+
+#main .box2
+{
+	top: 35px;
+	left: 10%;
+}
+
+#main .box3
+{
+	top: 0;
+	left: 25%;
+}
+
+#main .box4
+{
+	top: 35px;
+	left: 40%;
+}
+
+#main .box5
+{
+	top: 35px;
+	left: 40%;
+}

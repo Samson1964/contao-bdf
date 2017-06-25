@@ -1,0 +1,13 @@
+<?php
+	$GLOBALS['TL_CSS']['bdfboxen'] = 'system/modules/bdf/assets/bdfboxen.css';
+?>
+
+<div class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?> style="<?php if ($this->margin): ?><?php echo trim($this->margin); ?><?php endif; ?> <?php if ($this->style): ?><?php echo $this->style; ?><?php endif; ?>">
+
+	<?php for($x=0;$x<count($this->boxindex);$x++): ?>
+		<?php if ($this->boxstatus[$x]): ?>
+			<span class="boxall box<?php echo $this->boxindex[$x]; ?>" style="<?php echo $this->boxcss[$x]; ?>"><?php echo $this->boxtext[$x]; ?></span>
+		<?php endif; ?>
+	<?php endfor; ?>
+
+</div>
